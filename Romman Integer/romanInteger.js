@@ -57,4 +57,5 @@ function romanToInt(s) {
   return result;
 }
 
-console.log(romanToInt("III"))
+console.log(romanToInt("III"));
+console.log(romanToInt('IX'))
