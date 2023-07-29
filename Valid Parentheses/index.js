@@ -31,19 +31,27 @@ function isValid(s){
         //stack.length keeps track of brackets in the stack
         //stack stores opening brackets
 
+        //check if urrent character is a closing bracket
         if(mapping[char]){
+            //if its a closing bracket, check if there is a corresponding opening bracket
             if(!stack.length || stack[stack.length - 1] !== mapping[char]){
+                //if there is no corresponding opening bracket the stack is empty
                 return false;
             }
+            //if there is a corresponding opening bracket remove it from the stack
             stack.pop()
         }else{
+            //if the charatcer is an opening bracket add it to the stack
             stack.push(char)
         }   
     }
 
+    //after processing all characters check if there are remaining opening brackets
     if(stack.length !== 0){
+        //if there are remaining opening brackets the string is not valid
         return false;
     }
+    //if the stack is empty it means all brackets are balanced and the string is valid
 
     return true;
 }
