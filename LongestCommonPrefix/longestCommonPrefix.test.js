@@ -9,7 +9,7 @@ describe('longestCommonPrefix',()=>{
         expect(longestCommonPrefix(["hello","hell","hey"])).toBe("he")
     })
 
-    test("should return an empty string for an empty fo ran empty array",()=>{
+    test("should return an empty string for an empty for an empty array",()=>{
         expect(longestCommonPrefix([])).toBe("")
     })
 })
