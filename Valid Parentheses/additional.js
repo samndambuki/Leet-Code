@@ -14,4 +14,6 @@ console.log(char)
 for(let i=0;i<s.length;i++){
     //console.log(s[i]) - when i is 0,1,2,3,4 5 - loop ends 
     console.log(s[i]);
+
+    
 }
