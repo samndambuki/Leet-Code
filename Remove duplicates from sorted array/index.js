@@ -32,3 +32,7 @@ function removeDuplicates(nums){
 }
 
 
+const myArrray = [1,1,2,2,3,3,4]
+removeDuplicates(myArrray)
+console.log(removeDuplicates)
+
