@@ -28,6 +28,8 @@ describe('removeElement function',()=>{
         let val = 6
         expect(removeElement(nums,val)). toBe(5)
         })
+
+        
     })
 })
 
