@@ -42,9 +42,11 @@ function removeElement(nums, val) {
 // console.log(nums1)
 
 
-let nums2 = [0,1,2,2,3,0,4,2]
-let val2 = 2
+// let nums2 = [0,1,2,2,3,0,4,2]
+// let val2 = 2
 
-let result2 = removeElement(nums2,val2)
-console.log(result2)
-console.log(nums2)
+// let result2 = removeElement(nums2,val2)
+// console.log(result2)
+// console.log(nums2)
+
+module.exports = {removeElement}
