@@ -25,5 +25,7 @@ function findNeedleInHayStack(haystack, needle) {
   return -1;
 }
 
-console.log(findNeedleInHayStack("sadbutsad", "sad"));
-console.log(findNeedleInHayStack("leetcode","leeto"))
+module.exports={findNeedleInHayStack}
+
+// console.log(findNeedleInHayStack("sadbutsad", "sad"));
+// console.log(findNeedleInHayStack("leetcode","leeto"))
