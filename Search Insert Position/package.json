@@ -1,0 +1,15 @@
+{
+  "name": "search-insert-position",
+  "version": "1.0.0",
+  "description": "<!-- CHALLENGE -->",
+  "main": "check1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

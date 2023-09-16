@@ -29,3 +29,4 @@ console.log(searchInsert([1,3,5,6],7))
 
 
 
+module.exports = {searchInsert}
