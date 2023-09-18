@@ -1,0 +1,15 @@
+{
+  "name": "length-of-last-word",
+  "version": "1.0.0",
+  "description": "<!-- CHALLENGE --> 58. Length of Last Word Easy 4.1K 200 Companies Given a string s consisting of words and spaces, return the length of the last word in the string.",
+  "main": "solutions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
