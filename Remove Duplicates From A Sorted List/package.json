@@ -1,0 +1,15 @@
+{
+  "name": "remove-duplicates-from-a-sorted-list",
+  "version": "1.0.0",
+  "description": "83. Remove Duplicates from Sorted List     Easy     8.2K     276     Companies     Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.",
+  "main": "solution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}

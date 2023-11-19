@@ -45,3 +45,5 @@ console.log(result);
 let head2 = new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3))));
 let result2 = deleteDuplicates(head2);
 console.log(result2);
+
+module.exports = { ListNode, deleteDuplicates };
